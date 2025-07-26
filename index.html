@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css">
+  <title>Plant Shop</title>
+</head>
+<body>
+<header>
+  <div>Plant Shop</div>
+  <nav>
+    <a id="nav-products" href="#">Products</a>
+    <a id="nav-cart" href="#">
+      Cart <span id="cart-count">0</span>
+    </a>
+  </nav>
+</header>
+
+<main>
+  <section id="landing" class="active">
+    <h1>Plant Shop</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button id="btn-get-started">Get Started</button>
+  </section>
+
+  <section id="products">
+    <h2>Plants for Sale</h2>
+    <div id="products-container"></div>
+  </section>
+
+  <section id="cart">
+    <h2>Your Shopping Cart</h2>
+    <p>Total items: <span id="total-items">0</span></p>
+    <p>Total price: $<span id="total-price">0.00</span></p>
+    <div id="cart-items"></div>
+    <button id="checkout-btn">Checkout</button>
+    <button id="continue-btn">Continue Shopping</button>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
